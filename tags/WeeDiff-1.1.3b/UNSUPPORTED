@@ -1,0 +1,26 @@
+Following is a list of items in this tree or environments that won't
+be supported or updated in any way:
+
+- WeeDiff/WeeDiffGen/WeeDiffGen/WDGIgnoreMissingFileErrors
+  Reason: Hinders debugging by hiding errors that MUST be fixed.
+
+- WeeDiff/WeeDiffGen/WeeDiffGen/WDGRestoreLoginWindow
+  Reason: Obsolete in favor of packet 0x825+command line.
+
+- WeeDiff/WeeDiffGen/WeeDiffGen/WDGAllowMultipleWindows
+  Reason: Obsolete in newest clients, because the code was removed.
+
+- WeeDiff/WeeDiffGen/WeeDiffGen/WDGDisableHallucinationWavyScreen
+  Reason: Obsolete in newest clients, because the effect changed.
+
+- WeeDiff/WeeDiffGen/WeeDiffGen/WDGTranslateClientIntoEnglish
+  Reason: Obsolete in favor of WDGTranslateClient.
+
+- WeeDiff/WeeDiffGen/WeeDiffGen/WDGUseArialOnAllLangtypes
+  Reason: Obsolete in favor of WDGUseCustomFont.
+
+- WeeDiff/WeeDiffGen/WeeDiffGen/WDGEnableMultipleGRF
+  Reason: Subset of WDGEnableMultipleGRFExtended, has even same GUID.
+
+- WeeTools.sln
+  Reason: Visual Studio Express does not support solution folders.
